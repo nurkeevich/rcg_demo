@@ -1,7 +1,6 @@
-@test
 Feature: Products Page
 
-Scenario: Products Pages Title Verification
+Scenario: Products Page Title Verification
 Given User at Home Page
-Then Clicks on Products Page
-And Verifies the Title of page "Way2B1 - Family Office Platform"
+Then Clicks on Products button on Home Page
+And Verifies the Title of Page "Way2B1 - Family Office Platform"

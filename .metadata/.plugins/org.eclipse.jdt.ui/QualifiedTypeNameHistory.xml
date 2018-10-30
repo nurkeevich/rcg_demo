@@ -47,7 +47,6 @@
 <fullyQualifiedTypeName name="cucumber.api.java.en.Given"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
 <fullyQualifiedTypeName name="java.security.Provider"/>
-<fullyQualifiedTypeName name="com.way2b1.pages.HomePage"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
@@ -56,7 +55,8 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="io.github.bonigarcia.wdm.WebDriverManager"/>
+<fullyQualifiedTypeName name="com.way2b1.utilities.ConfigReader"/>
+<fullyQualifiedTypeName name="com.way2b1.pages.HomePage"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="com.way2b1.utilities.Driver"/>
-<fullyQualifiedTypeName name="com.way2b1.utilities.ConfigReader"/>
 </qualifiedTypeNameHistroy>
