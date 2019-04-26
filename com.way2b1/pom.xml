@@ -5,6 +5,7 @@
 	<groupId>com.way2b1</groupId>
 	<artifactId>com.way2b1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -12,62 +13,20 @@
 
 	<dependencies>
 
-		<!-- extentreport -->
+		<!-- https://mvnrepository.com/artifact/com.codeborne/phantomjsdriver -->
 		<dependency>
-			<groupId>com.relevantcodes</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>2.41.2</version>
+			<groupId>com.codeborne</groupId>
+			<artifactId>phantomjsdriver</artifactId>
+			<version>1.4.4</version>
 		</dependency>
 
-		<!-- rest-assured -->
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
-			<groupId>io.rest-assured</groupId>
-			<artifactId>rest-assured</artifactId>
-			<version>3.1.1</version>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.11.0</version>
 		</dependency>
 
-
-		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-jvm-deps</artifactId>
-			<version>1.0.6</version>
-		</dependency>
-
-		<dependency>
-			<groupId>oracle</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>11.2.0.3</version>
-		</dependency>
-
-		<!-- cucumber-testng -->
-		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-testng</artifactId>
-			<version>1.2.5</version>
-		</dependency>
-
-		<!-- cucumber-core -->
-		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-core</artifactId>
-			<version>1.2.5</version>
-		</dependency>
-
-		<!-- cucumber-java -->
-		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-java</artifactId>
-			<version>1.2.4</version>
-		</dependency>
-
-
-		<!-- junit -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<scope>test</scope>
-		</dependency>
 
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -76,34 +35,29 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- selenium-java -->
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>3.11.0</version>
-		</dependency>
-
-		<!-- webdrivermanager -->
+		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>3.0.0</version>
+			<version>3.3.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>2.4.0</version>
 		</dependency>
 
 		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-core</artifactId>
-			<version>2.11.0</version>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>2.4.0</version>
 		</dependency>
-
-		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-api</artifactId>
-			<version>2.11.0</version>
-		</dependency>
-
 
 	</dependencies>
+
+
 	<repositories>
 		<repository>
 			<id>oracle</id>
